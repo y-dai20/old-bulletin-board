@@ -1,0 +1,107 @@
+body {
+  width: 550px;
+  margin: 0 auto;
+}
+
+.input_area {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.error_message {
+  color: rgb(255, 4, 64);
+  width: 400px;
+  margin: 5px auto;
+}
+
+.title, .message {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.title {
+    font-weight: bolder;
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+
+.messages {
+  border-top: 0.5px solid;
+  border-bottom: 0.5px solid;
+  word-wrap:break-word;
+}
+
+.created_at {
+  width: 500px;
+  margin: 0 auto;
+  text-align: right;
+}
+
+form {
+  padding-top: 10px;
+  padding-bottom: 50px;
+}
+
+textarea {
+  padding: 10px;
+  resize: none;
+  width: 500px;
+  height: 100px;
+  font-size: 20px;
+  border: solid 2px #000000;
+}
+
+#title{
+  padding: 10px;
+  width: 500px;
+  height: 35px;
+  font-size: 20px;
+  border: solid 2px #000000;
+}
+
+.password {
+    margin: 0;
+    padding: 5px;
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+    border: solid 2px #000000;
+}
+
+.submit_area {
+  text-align: center;
+}
+
+#submit_button {
+  width: 200px;
+  height: 35px;
+  background-color: rgb(154, 154, 154);
+  font-size: 20px;
+  border: solid 2px #000000;
+}
+
+#delete_button {
+  width: 50px;
+  height: 30px;
+  background-color: rgb(154, 154, 154);
+  font-size: 20px;
+  border: solid 2px #000000;
+}
+
+.move_page, .stay_page {
+  padding: 5px 10px;
+  margin: 5px 10px;
+  font-weight: bold;
+  border: solid 1.5px #000000;/*線*/
+  float: left;
+  font-size: 20px;
+}
+
+.stay_page {
+  background-color: rgb(154, 154, 154);
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
